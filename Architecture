@@ -1,0 +1,10 @@
+Kubernetes Architecture:
+1. Data Plane (Worker Node)
+Kubelet: Creates and manages Pods.
+Kube-Proxy: Handles networking, often using iptables in Linux environments.
+Container Runtime: Provides the environment for running containers (e.g., Docker, container).
+2. Control Plane (Master Node)
+API Server: Exposes Kubernetes API to external users and components.
+Scheduler: Assigns Pods to nodes based on resource requirements and cluster policies, receiving inputs from the API server.
+etcd: A distributed key-value store for backing up the cluster's configuration and state.
+Controller Manager: Manages various controllers, such as Replica Sets, to maintain the desired state of the cluster. Cloud Controller Manager (CCM): Handles integration with cloud-specific services, like load balancers and storage.
