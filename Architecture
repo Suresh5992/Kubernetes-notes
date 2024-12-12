@@ -1,4 +1,6 @@
-Kubernetes Architecture:
+- Kubernetes Architecture:
+
+- 🌱 I’m currently learning DevOps and Cloud.
 1. Data Plane (Worker Node)
 Kubelet: Creates and manages Pods.
 Kube-Proxy: Handles networking, often using iptables in Linux environments.
